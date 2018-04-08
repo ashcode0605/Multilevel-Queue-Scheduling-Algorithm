@@ -30,7 +30,7 @@ void printQueue(struct Process queue[],int size){
 void printFinalAns(struct P finalAns[],int size){
 
 	for(int i=0 ; i<size ; i++){
-		printf("(Process:%d, Start:%d,  End:%d) ",finalAns[i].p,finalAns[i].start,finalAns[i].end);
+		printf("Process:%d \t Start:%d \t End:%d\n",finalAns[i].p,finalAns[i].start,finalAns[i].end);
 	}
 
 	printf("\n");
